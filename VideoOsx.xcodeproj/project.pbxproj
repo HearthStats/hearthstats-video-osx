@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB642E081A272B7C00D1B484 /* VideoOsx.h in Headers */ = {isa = PBXBuildFile; fileRef = CB642E071A272B7C00D1B484 /* VideoOsx.h */; };
+		CB642E0A1A272B7C00D1B484 /* VideoOsx.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642E091A272B7C00D1B484 /* VideoOsx.m */; };
+		CB642E101A272B7C00D1B484 /* libVideoOsx.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB642E041A272B7C00D1B484 /* libVideoOsx.dylib */; };
+		CB642E201A272C2E00D1B484 /* HearthstoneRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB642E1F1A272C2E00D1B484 /* HearthstoneRecorder.swift */; };
+		CB642E231A27417E00D1B484 /* HearthstoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB642E221A27417E00D1B484 /* HearthstoneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB642E111A272B7C00D1B484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB642DFC1A272B7C00D1B484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB642E031A272B7C00D1B484;
+			remoteInfo = VideoOsx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB642E041A272B7C00D1B484 /* libVideoOsx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libVideoOsx.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB642E071A272B7C00D1B484 /* VideoOsx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoOsx.h; sourceTree = "<group>"; };
+		CB642E091A272B7C00D1B484 /* VideoOsx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoOsx.m; sourceTree = "<group>"; };
+		CB642E0F1A272B7C00D1B484 /* VideoOsxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoOsxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB642E151A272B7C00D1B484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB642E1E1A272C2D00D1B484 /* VideoOsx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoOsx-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB642E1F1A272C2E00D1B484 /* HearthstoneRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HearthstoneRecorder.swift; sourceTree = "<group>"; };
+		CB642E221A27417E00D1B484 /* HearthstoneTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HearthstoneTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB642E011A272B7C00D1B484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB642E0C1A272B7C00D1B484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB642E101A272B7C00D1B484 /* libVideoOsx.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB642DFB1A272B7C00D1B484 = {
+			isa = PBXGroup;
+			children = (
+				CB642E061A272B7C00D1B484 /* VideoOsx */,
+				CB642E131A272B7C00D1B484 /* VideoOsxTests */,
+				CB642E051A272B7C00D1B484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB642E051A272B7C00D1B484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB642E041A272B7C00D1B484 /* libVideoOsx.dylib */,
+				CB642E0F1A272B7C00D1B484 /* VideoOsxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB642E061A272B7C00D1B484 /* VideoOsx */ = {
+			isa = PBXGroup;
+			children = (
+				CB642E071A272B7C00D1B484 /* VideoOsx.h */,
+				CB642E091A272B7C00D1B484 /* VideoOsx.m */,
+				CB642E1F1A272C2E00D1B484 /* HearthstoneRecorder.swift */,
+				CB642E1E1A272C2D00D1B484 /* VideoOsx-Bridging-Header.h */,
+			);
+			path = VideoOsx;
+			sourceTree = "<group>";
+		};
+		CB642E131A272B7C00D1B484 /* VideoOsxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB642E141A272B7C00D1B484 /* Supporting Files */,
+				CB642E221A27417E00D1B484 /* HearthstoneTests.swift */,
+			);
+			path = VideoOsxTests;
+			sourceTree = "<group>";
+		};
+		CB642E141A272B7C00D1B484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB642E151A272B7C00D1B484 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB642E021A272B7C00D1B484 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB642E081A272B7C00D1B484 /* VideoOsx.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB642E031A272B7C00D1B484 /* VideoOsx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB642E181A272B7C00D1B484 /* Build configuration list for PBXNativeTarget "VideoOsx" */;
+			buildPhases = (
+				CB642E001A272B7C00D1B484 /* Sources */,
+				CB642E011A272B7C00D1B484 /* Frameworks */,
+				CB642E021A272B7C00D1B484 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoOsx;
+			productName = VideoOsx;
+			productReference = CB642E041A272B7C00D1B484 /* libVideoOsx.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		CB642E0E1A272B7C00D1B484 /* VideoOsxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB642E1B1A272B7C00D1B484 /* Build configuration list for PBXNativeTarget "VideoOsxTests" */;
+			buildPhases = (
+				CB642E0B1A272B7C00D1B484 /* Sources */,
+				CB642E0C1A272B7C00D1B484 /* Frameworks */,
+				CB642E0D1A272B7C00D1B484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB642E121A272B7C00D1B484 /* PBXTargetDependency */,
+			);
+			name = VideoOsxTests;
+			productName = VideoOsxTests;
+			productReference = CB642E0F1A272B7C00D1B484 /* VideoOsxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB642DFC1A272B7C00D1B484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = HearthStats.net;
+				TargetAttributes = {
+					CB642E031A272B7C00D1B484 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CB642E0E1A272B7C00D1B484 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = CB642DFF1A272B7C00D1B484 /* Build configuration list for PBXProject "VideoOsx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB642DFB1A272B7C00D1B484;
+			productRefGroup = CB642E051A272B7C00D1B484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB642E031A272B7C00D1B484 /* VideoOsx */,
+				CB642E0E1A272B7C00D1B484 /* VideoOsxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB642E0D1A272B7C00D1B484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB642E001A272B7C00D1B484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB642E0A1A272B7C00D1B484 /* VideoOsx.m in Sources */,
+				CB642E201A272C2E00D1B484 /* HearthstoneRecorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB642E0B1A272B7C00D1B484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB642E231A27417E00D1B484 /* HearthstoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB642E121A272B7C00D1B484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB642E031A272B7C00D1B484 /* VideoOsx */;
+			targetProxy = CB642E111A272B7C00D1B484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB642E161A272B7C00D1B484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB642E171A272B7C00D1B484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB642E191A272B7C00D1B484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoOsx/VideoOsx-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB642E1A1A272B7C00D1B484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoOsx/VideoOsx-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CB642E1C1A272B7C00D1B484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VideoOsxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoOsxTests/VideoOsxTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB642E1D1A272B7C00D1B484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VideoOsxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoOsxTests/VideoOsxTests-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB642DFF1A272B7C00D1B484 /* Build configuration list for PBXProject "VideoOsx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB642E161A272B7C00D1B484 /* Debug */,
+				CB642E171A272B7C00D1B484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB642E181A272B7C00D1B484 /* Build configuration list for PBXNativeTarget "VideoOsx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB642E191A272B7C00D1B484 /* Debug */,
+				CB642E1A1A272B7C00D1B484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB642E1B1A272B7C00D1B484 /* Build configuration list for PBXNativeTarget "VideoOsxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB642E1C1A272B7C00D1B484 /* Debug */,
+				CB642E1D1A272B7C00D1B484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB642DFC1A272B7C00D1B484 /* Project object */;
+}
