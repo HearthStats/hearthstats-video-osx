@@ -2,7 +2,7 @@
 //  HearthstoneTests.swift
 //  VideoOsx
 //
-//  Copyright (c) 2014 Charles Gutjahr. See README.md for license details.
+//  Copyright (c) 2014 Charles Gutjahr. See LICENSE file for license details.
 //
 
 import Foundation
